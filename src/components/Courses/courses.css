@@ -1,0 +1,41 @@
+.courses_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px ;
+}
+
+
+.welcome_courses{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    width: fit-content;
+    font-size: 40px;
+    margin: 65px 0;
+    position: relative;
+}
+
+
+.welcome_courses::after{
+    position: absolute;
+    content: "";
+    bottom: -16px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 57px;
+    height: 3px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+
+.items_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

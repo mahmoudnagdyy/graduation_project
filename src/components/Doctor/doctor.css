@@ -1,0 +1,6 @@
+.doctor_bigCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

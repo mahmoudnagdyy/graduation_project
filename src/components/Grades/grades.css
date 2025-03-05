@@ -1,0 +1,69 @@
+.grades_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 500px;
+    width: 100%;
+}
+
+
+.grades_h{
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+
+.grades_h::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    background-color: #FF0000;
+    width: 40%;
+    height: 3px;
+    border-radius: 10px;
+    transform: translate(-50%);
+}
+
+
+
+table.grades{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.table_h{
+    border: none !important;
+    background-color: #000000;
+    color: white;
+    letter-spacing: 2px !important;
+    font-size: 25px;
+}
+
+table.grades th, table.grades td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+table.grades tbody tr td {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+table.grades tbody tr td:nth-child(2) {
+    text-transform: lowercase;
+}
+
+table.grades tr:hover {
+    background-color: #ef44441f;
+}

@@ -1,0 +1,80 @@
+.header_cont{
+    background-color: #043c7d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.header_links{
+    display: flex;
+}
+
+.header_links a{
+    transition-duration: 0.4s;
+}
+
+.header_links a:hover{
+    color: red;
+}
+
+.header_cont .homelink{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header_cont .courseslink{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header_cont .gradeslink{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header_cont .profilelink{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.logout{
+    background-color: #6aadfb;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+
+.logout:hover{
+    background-color: #fa3939;
+}
+
+
+.date{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,142 @@
+.login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #517cfe;
+    max-width: 500px;
+    margin: 160px auto;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+}
+
+.loginTxt{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 30px 0;
+}
+
+.loginTxt span{
+    color: #4fa0ff;
+}
+
+.mail_cont{
+    width: 64%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.login_container input[type="email"]{
+    width: 94%;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #eeeff1;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.mail_cont p{
+    font-size: 16px;
+    color: red;
+    letter-spacing: 1px;
+}
+
+.pass_bigCont{
+    width: 64%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pass_bigCont .password_cont{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login_container input[placeholder='Password']{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #eeeff1;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.eye_btn{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.eye_btn:hover{
+    background-color: #d5d6db;
+}
+
+.pass_p{
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.loginBtn{
+    border: none;
+    background-color: #5ca7ff;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.loginBtn:hover{
+    background-color: #4fa0ff;
+}
+
+
+.login_container select{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #eeeff1;
+    padding: 15px 10px;
+}
+
+.type_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 64%;
+}
+
+.type_p{
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}

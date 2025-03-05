@@ -1,0 +1,330 @@
+.doctor_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.updateSubj_cont{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d6;
+    z-index: 999;
+}
+
+.close_btn{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 47px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    transition-duration: 0.3s;
+}
+
+
+.close_btn:hover{
+    color: #d32626;
+}
+
+
+.update_subj{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_subj h1{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    width: fit-content;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.update_subj  .input_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 64%;
+}
+
+
+.update_subj input, select{
+    border: none;
+    outline: none;
+    background-color: #eeeff1;
+    padding: 15px 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition-duration: 0.3s;
+}
+
+.input_cont input{
+    width: 94%;
+    margin-bottom: 10px;
+}
+
+.input_cont p{
+    color: red;
+}
+
+.update_subj input:hover,
+.update_subj input:focus,
+.update_subj select:hover,
+.update_subj select:focus{
+    border: 1px solid #aa3bc5;
+}
+
+.update_subj button.save{
+    width: fit-content;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid #aa3bc5;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.update_subj button.save:hover{
+    background-color: #aa3bc5;
+    color: white;
+}
+
+
+
+.doctor_cont h1.welcome{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    width: fit-content;
+    font-size: 40px;
+    margin: 65px 0;
+    position: relative;
+}
+
+
+.doctor_cont h1.welcome::after{
+    position: absolute;
+    content: "";
+    bottom: -16px;
+    left: 43%;
+    width: 57px;
+    height: 3px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+
+.form{
+    background-color: white;
+    width: 500px;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #aa3bc5;
+}
+
+.form h2{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.form .input_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 64%;
+}
+
+.form input, select{
+    border: none;
+    outline: none;
+    background-color: #eeeff1;
+    padding: 15px 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition-duration: 0.3s;
+}
+
+.input_cont input{
+    width: 94%;
+    margin-bottom: 10px;
+}
+
+.input_cont p{
+    color: red;
+}
+
+.form input:hover,
+.form input:focus,
+.form select:hover,
+.form select:focus{
+    border: 1px solid #aa3bc5;
+}
+
+.select_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 64%;
+    margin-bottom: 10px;
+}
+
+.select_cont select{
+    width: 100%;
+    margin: 10px 0;
+    appearance: none;
+}
+
+.select_cont p{
+    color: red;
+}
+
+
+.form button.add{
+    width: fit-content;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid #aa3bc5;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.form button.add:hover{
+    background-color: #aa3bc5;
+    color: white;
+}
+
+.subjs_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+
+.subj_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #aa3bc5;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 506px;
+}
+
+.subj_item a{
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.subj_item a:hover{
+    color: #aa3bc5;
+}
+
+.subj_item p{
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.btns_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subj_item button{
+    width: fit-content;
+    color: black;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    transition-duration: 0.3s;
+}
+
+.subj_item button:nth-child(1):hover{
+    color: #2596be;
+}
+
+.subj_item button:nth-child(2):hover{
+    color: #be4d25;
+}
+
+.empty{
+    margin: 90px 0;
+    font-size: 30px;
+    color: #d1d1d1;
+    text-transform: capitalize;
+}
+
+
+.subj_inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.subj_inputs select{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+.res_p{
+    margin-bottom: 15px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+.res_p i{
+    color: red;
+}
